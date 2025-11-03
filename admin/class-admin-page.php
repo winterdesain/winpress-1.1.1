@@ -88,13 +88,6 @@ class Winpress_Admin {
                             <p class="description">Enable mobile-specific optimizations (more aggressive deferring).</p>
                         </td>
                     </tr>
-                    <tr>
-                        <th>Show Branding</th>
-                        <td>
-                            <input type="checkbox" name="winpress_settings[auto_branding]" value="1" <?php checked($branding, '1'); ?> />
-                            <p class="description">Show plugin branding in settings page.</p>
-                        </td>
-                    </tr>
                 </table>
                 <?php submit_button(); ?>
             </form>
